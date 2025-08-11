@@ -5,18 +5,16 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '"Embracing Linux in the Age of Cloud Computing"',
-      subTitle: 'Keynote Speaker at the Open Source Summit',
-      at: '2017-10',
-      descriptions: [
-        {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        },
-        {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net/',
-        },
-      ],
+      title: '정보처리기사',
+      subTitle: '한국산업인력공단 (24203070786E)',
+      at: '2024-12',
+      descriptions: [],
+    },
+    {
+      title: 'SQLD(SQL 개발자)',
+      subTitle: '한국데이터산업진흥원 (SQLD-053009103)',
+      at: '2024-06',
+      descriptions: [],
     },
   ],
 };
