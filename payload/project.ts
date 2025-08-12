@@ -4,22 +4,21 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: '다이후쿠 ERP 시스템 개편',
+      startedAt: '2025-01',
+      where: '(주)인바이트',
       descriptions: [
         {
           content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+            '개발 공수 감축을 위한 JSP Template 제작',
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
+            '쿼리 최적화 및 튜닝 작업 지원',
+        },
+        {
+          content:
+            '',
         },
       ],
     },

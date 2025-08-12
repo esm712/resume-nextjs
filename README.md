@@ -169,3 +169,9 @@ npm run export
   - 데이터나 `_global` payload 로 핸들링하는 방법을 고민 중입니다.
 - index.html 에서 이미지, CSS가 404 발생하는 경우
   - https://github.com/uyu423/resume-nextjs/issues/37 참고
+
+## Docker container
+
+```bash
+docker run -it --rm -p 3000:3000 -v "$PWD":/usr/src/app -w /usr/src/app node:20 bash
+```
