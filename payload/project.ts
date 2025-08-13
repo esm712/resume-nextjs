@@ -9,16 +9,13 @@ const project: IProject.Payload = {
       where: '(주)인바이트',
       descriptions: [
         {
-          content:
-            '개발 공수 감축을 위한 JSP Template 제작',
+          content: '개발 공수 감축을 위한 JSP Template 제작',
         },
         {
-          content:
-            '쿼리 최적화 및 튜닝 작업 지원',
+          content: '쿼리 최적화 및 튜닝 작업 지원',
         },
         {
-          content:
-            '',
+          content: '',
         },
       ],
     },

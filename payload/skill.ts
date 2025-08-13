@@ -83,12 +83,7 @@ const tools: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    frameworksLibraries,
-    infraDatabases,
-    tools
-  ],
+  skills: [programmingLanguages, frameworksLibraries, infraDatabases, tools],
 };
 
 export default skill;

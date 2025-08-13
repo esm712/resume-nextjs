@@ -57,4 +57,3 @@ function createProfileContactMap(contacts: Payload['contact']) {
     </Row>
   );
 }
-
