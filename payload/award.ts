@@ -5,7 +5,7 @@ const award: IAward.Payload = {
 
   list: [
     {
-      title: '2023 광광데이터 활용 공모전',
+      title: '2023 관광데이터 활용 공모전',
       subTitle: '장려상',
       at: '2023-11',
       descriptions: [
