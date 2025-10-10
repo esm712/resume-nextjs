@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faEnvelope, faPen, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -20,11 +20,6 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
-    },
-    {
       link: 'https://github.com/esm712',
       icon: faGithub,
     },
@@ -32,6 +27,10 @@ const profile: IProfile.Payload = {
       link: 'https://www.linkedin.com/in/hokkom/',
       icon: faLinkedin,
     },
+    {
+      link: 'https://hokkom.tistory.com/',
+      icon: faPen,
+    }
   ],
   notice: {
     title:
