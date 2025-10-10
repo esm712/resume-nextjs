@@ -66,7 +66,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: "구매하고 싶은 물건을 구매하도록 도와주는 '아끼미' 개발",
+      title: "위시리스트 기반 저축 도우미 서비스 '아끼미' 개발",
       startedAt: '2023-08',
       endedAt: '2023-10',
       where: '삼성 청년 SW 아카데미',
@@ -102,7 +102,7 @@ const project: IProject.Payload = {
           content: '렌더링 속도 개선',
           descriptions: [
             {
-              content: '캐시테이블 활용 -> 속도 90% 향상',
+              content: '캐시테이블 활용 렌더링 속도 90% 개선',
             },
           ],
         },

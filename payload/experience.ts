@@ -41,6 +41,18 @@ const experience: IExperience.Payload = {
         },
       ],
     },
+    {
+      title: '소프트웨어 공학 연구실',
+      positions: [
+        {
+          title: '학부연구생',
+          startedAt: '2022-01',
+          endedAt: '2022-12',
+          descriptions: ['유스케이스 기반 MSA 식별 연구', '데이터 전처리', '논문 작성'],
+          skillKeywords: ['Python', 'MSA', 'Spring', 'HTML', 'CSS'],
+        },
+      ],
+    },
   ],
 };
 

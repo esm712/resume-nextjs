@@ -38,7 +38,11 @@ const award: IAward.Payload = {
       title: '교내 프로그래밍 대회',
       subTitle: '동상',
       at: '2021-10',
-      descriptions: [],
+      descriptions: [
+        {
+          content: 'ICPC Seoul 예선 3등',
+        },
+      ],
     },
   ],
 };
