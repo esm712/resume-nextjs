@@ -12,23 +12,23 @@ const project: IProject.Payload = {
           content: 'JSP Servlet 기반 웹 고도화',
           descriptions: [
             {
-              content: 'JSP 템플릿 개발 -> 개발 생산성 50% 향상'
+              content: 'JSP 템플릿 개발 -> 개발 생산성 50% 향상',
             },
             {
-              content: '복잡한 쿼리를 CTE로 분리 -> 쿼리 가독성 개선'
+              content: '복잡한 쿼리를 CTE로 분리 -> 쿼리 가독성 개선',
             },
             {
-              content: 'HTTP/2.0 업그레이드 -> 웹 응답 속도 15~50% 개선'
-            }
-          ]
+              content: 'HTTP/2.0 업그레이드 -> 웹 응답 속도 15~50% 개선',
+            },
+          ],
         },
         {
           content: '결제 프로세스 간소화',
           descriptions: [
             {
-              content: '공통 결제 컴포넌트 개발 -> 결제 통합 처리'
+              content: '공통 결제 컴포넌트 개발 -> 결제 통합 처리',
             },
-          ]
+          ],
         },
       ],
     },
@@ -42,27 +42,26 @@ const project: IProject.Payload = {
           content: '자체 모니터링 기능 개발',
           descriptions: [
             {
-              content: 'docker-java(OpenSource)를 사용하여 리소스 모니터링'
+              content: 'docker-java(OpenSource)를 사용하여 리소스 모니터링',
             },
             {
-              content: '리소스 Threshold warn 70%, error 80% 이상 -> Webhook 알림 전송'
+              content: '리소스 Threshold warn 70%, error 80% 이상 -> Webhook 알림 전송',
             },
-            
-          ]
+          ],
         },
         {
           content: '로그 분류 프로세스 고도화',
           descriptions: [
             {
-              content: 'Nginix conf 수정을 통한 로그 분류 -> 데이터 처리 속도 75% 상승'
+              content: 'Nginix conf 수정을 통한 로그 분류 -> 데이터 처리 속도 75% 상승',
             },
             {
-              content: '정제 로그 데이터 추출 파서 개발'
+              content: '정제 로그 데이터 추출 파서 개발',
             },
             {
-              content: '@JopScope를 통한 로그 파일 동시성 오류 해결'
-            }
-          ]
+              content: '@JopScope를 통한 로그 파일 동시성 오류 해결',
+            },
+          ],
         },
       ],
     },
@@ -76,21 +75,20 @@ const project: IProject.Payload = {
           content: '아키텍처 고도화',
           descriptions: [
             {
-              content: "Port&Adapter 패턴 적용('만들면서 배우는 클린 아키텍처' 참고)"
+              content: "Port&Adapter 패턴 적용('만들면서 배우는 클린 아키텍처' 참고)",
             },
             {
-              content: 'CRUD 구조를 Command Query 구조로 개선 -> Transactional 최적화에 유리'
+              content: 'CRUD 구조를 Command Query 구조로 개선 -> Transactional 최적화에 유리',
             },
-            
-          ]
+          ],
         },
         {
           content: '개발 편의성 개선',
           descriptions: [
             {
-              content: 'Jira Issue와 Gitlab branch 연동 -> 개발 프로세스 단축'
+              content: 'Jira Issue와 Gitlab branch 연동 -> 개발 프로세스 단축',
             },
-          ]
+          ],
         },
       ],
     },
@@ -104,30 +102,30 @@ const project: IProject.Payload = {
           content: '렌더링 속도 개선',
           descriptions: [
             {
-              content: '캐시테이블 활용 -> 속도 90% 향상'
-            }
-          ]
+              content: '캐시테이블 활용 -> 속도 90% 향상',
+            },
+          ],
         },
         {
           content: '향수 추천 로직 개발',
           descriptions: [
             {
-              content: 'TF-IDF(문서간 유사도) 활용'
-            }
-          ]
+              content: 'TF-IDF(문서간 유사도) 활용',
+            },
+          ],
         },
         {
           content: 'CI/CD 구축',
           descriptions: [
             {
-              content: 'Jenkins를 활용한 Blue-Green 배포'
-            }
-          ]
-        }
+              content: 'Jenkins를 활용한 Blue-Green 배포',
+            },
+          ],
+        },
       ],
     },
     {
-      title: "모노리식 아키텍처에서 유스케이스 기반으로 마이크로서비스 식별 연구",
+      title: '모노리식 아키텍처에서 유스케이스 기반으로 마이크로서비스 식별 연구',
       startedAt: '2022-01',
       endedAt: '2022-12',
       where: '소프트웨어공학 연구실',
@@ -135,28 +133,26 @@ const project: IProject.Payload = {
         {
           content: '데이터 전처리',
           descriptions: [
-            { content: '불용어 제거 모듈 개발'},
-            { content: 'TF-IDF를 활용한 컴포넌트 벡터화'},
-          ]
+            { content: '불용어 제거 모듈 개발' },
+            { content: 'TF-IDF를 활용한 컴포넌트 벡터화' },
+          ],
         },
         {
           content: '클러스터링',
           descriptions: [
             {
-              content: 'Bunch 논문 기반 실험 및 결과 정리'
+              content: 'Bunch 논문 기반 실험 및 결과 정리',
             },
             {
               content: '유스케이스 기반 실행 비율 계산 모듈 개발',
-              href: 'https://github.com/esm712/classify-microservice'
+              href: 'https://github.com/esm712/classify-microservice',
             },
-          ]
+          ],
         },
         {
           content: '논문 작성',
-          descriptions: [
-            { content: '유스케이스 기반 알고리즘 수도코드 작성'},
-          ]
-        }
+          descriptions: [{ content: '유스케이스 기반 알고리즘 수도코드 작성' }],
+        },
       ],
     },
   ],

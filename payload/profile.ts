@@ -1,4 +1,4 @@
-import { faBlog, faEnvelope, faPen, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPen } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -30,7 +30,7 @@ const profile: IProfile.Payload = {
     {
       link: 'https://hokkom.tistory.com/',
       icon: faPen,
-    }
+    },
   ],
   notice: {
     title:

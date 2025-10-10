@@ -10,10 +10,7 @@ const experience: IExperience.Payload = {
         {
           title: '솔루션사업부',
           startedAt: '2025-01',
-          descriptions: [
-            'ERP 생산 모듈 고도화',
-            '신규 ERP Framework 개발'
-          ],
+          descriptions: ['ERP 생산 모듈 고도화', '신규 ERP Framework 개발'],
           skillKeywords: ['Java', 'JSP', 'Servlet', 'Javascript', 'HTML/CSS', 'SQL Server'],
         },
       ],
@@ -28,12 +25,22 @@ const experience: IExperience.Payload = {
           descriptions: [
             '총 1600시간 SW 교육과정 이수',
             'SW역량테스트 A+ 취득',
-            '3개 프로젝트 중 2개 프로젝트 우수상 수상'
+            '3개 프로젝트 중 2개 프로젝트 우수상 수상',
           ],
-          skillKeywords: ['Java', 'Spring', 'HTML', 'JS', 'CSS', 'SQL', 'GitLab', 'Jenkins', 'AWS EC2'],
-        }
-      ]
-    }
+          skillKeywords: [
+            'Java',
+            'Spring',
+            'HTML',
+            'JS',
+            'CSS',
+            'SQL',
+            'GitLab',
+            'Jenkins',
+            'AWS EC2',
+          ],
+        },
+      ],
+    },
   ],
 };
 
