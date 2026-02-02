@@ -23,10 +23,10 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '결제 프로세스 간소화',
+          content: '결재 프로세스 간소화',
           descriptions: [
             {
-              content: '공통 결제 컴포넌트 개발 -> 결제 통합 처리',
+              content: '공통 결재 컴포넌트 개발 -> 결재 통합 처리',
             },
           ],
         },

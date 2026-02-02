@@ -1,6 +1,7 @@
 import { Row, Col, Badge } from 'reactstrap';
 import { PropsWithChildren } from 'react';
 import { DateTime } from 'luxon';
+import ReactMarkdown from 'react-markdown';
 import { Style } from '../common/Style';
 import Util from '../common/Util';
 import { IIntroduce } from './IIntroduce';
@@ -34,7 +35,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
+            <ReactMarkdown key={index.toString()}>{content}</ReactMarkdown>
           ))}
           <p className="text-right">
             <small>Latest Updated</small>{' '}

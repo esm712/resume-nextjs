@@ -16,6 +16,12 @@ const presentation: IPresentation.Payload = {
       at: '2024-06',
       descriptions: [],
     },
+    {
+      title: '리눅스마스터 2급',
+      subTitle: '한국정보통신진흥협회 (LMS-2504-006911)',
+      at: '2026-01',
+      descriptions: [],
+    },
   ],
 };
 
