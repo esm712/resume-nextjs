@@ -1,4 +1,5 @@
 import { CSSProperties, PropsWithChildren } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import { HrefTargetBlank } from '.';
 import { IRow } from './IRow';
@@ -63,6 +64,10 @@ function DescriptionRecursion({
 function Description({ description }: PropsWithChildren<{ description: IRow.Description }>) {
   const { content, href, postImage, postHref, weight } = description;
 
+  const renderMarkdown = (text: string) => (
+    <ReactMarkdown components={{ p: 'span' }}>{text}</ReactMarkdown>
+  );
+
   const component = (() => {
     if (href && postImage) {
       return (
@@ -103,7 +108,7 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     return (
       <>
         <meta name="format-detection" content="telephone=no" />
-        <li style={getFontWeight(weight)}>{content}</li>
+        <li style={getFontWeight(weight)}>{renderMarkdown(content)}</li>
       </>
     );
   })();

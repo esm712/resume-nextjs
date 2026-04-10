@@ -15,9 +15,6 @@ const programmingLanguages: ISkill.Skill = {
     {
       title: 'Python',
     },
-    {
-      title: 'C++',
-    },
   ],
 };
 
@@ -74,9 +71,6 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'Jira',
-    },
-    {
-      title: 'Jenkins',
     },
   ],
 };
